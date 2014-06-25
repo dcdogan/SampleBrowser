@@ -17,7 +17,7 @@
 		661E648617CAAC7D0014FB34 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 661E648517CAAC7D0014FB34 /* Default@2x.png */; };
 		661E648817CAAC7D0014FB34 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 661E648717CAAC7D0014FB34 /* Default-568h@2x.png */; };
 		661E648B17CAAC7D0014FB34 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661E648917CAAC7D0014FB34 /* MainStoryboard.storyboard */; };
-		661E648E17CAAC7D0014FB34 /* SBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E648D17CAAC7D0014FB34 /* SBViewController.m */; };
+		661E649617CAAED00014FB34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E649517CAAED00014FB34 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +35,8 @@
 		661E648517CAAC7D0014FB34 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		661E648717CAAC7D0014FB34 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		661E648A17CAAC7D0014FB34 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		661E648C17CAAC7D0014FB34 /* SBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBViewController.h; sourceTree = "<group>"; };
-		661E648D17CAAC7D0014FB34 /* SBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBViewController.m; sourceTree = "<group>"; };
+		661E649417CAAED00014FB34 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		661E649517CAAED00014FB34 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 				661E648017CAAC7D0014FB34 /* SBAppDelegate.h */,
 				661E648117CAAC7D0014FB34 /* SBAppDelegate.m */,
 				661E648917CAAC7D0014FB34 /* MainStoryboard.storyboard */,
-				661E648C17CAAC7D0014FB34 /* SBViewController.h */,
-				661E648D17CAAC7D0014FB34 /* SBViewController.m */,
+				661E649417CAAED00014FB34 /* ViewController.h */,
+				661E649517CAAED00014FB34 /* ViewController.m */,
 				661E647817CAAC7D0014FB34 /* Supporting Files */,
 			);
 			path = SampleBrowser;
@@ -176,7 +176,7 @@
 			files = (
 				661E647E17CAAC7D0014FB34 /* main.m in Sources */,
 				661E648217CAAC7D0014FB34 /* SBAppDelegate.m in Sources */,
-				661E648E17CAAC7D0014FB34 /* SBViewController.m in Sources */,
+				661E649617CAAED00014FB34 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
